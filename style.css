@@ -1,0 +1,232 @@
+body {
+	background: #8A2387;
+	background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+	background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+}
+/**********************************SHRIFTS**********************************/
+
+/*******Specta Retro*******/
+@font-face {
+	font-family: "Specta Retro Script";
+	src: url("fonts/Specta Retro/Specta Retro Script.ttf") format("truetype"), 
+	url("fonts/Specta Retro Script.otf") format("opentype");
+}
+
+.specta {
+	font-family: "Specta Retro Script";
+	font-size: 50px;
+}
+
+.specta.par{
+	font-size: 35px; 
+}
+/*******Specta Retro*******/
+
+/*******Mafalda*******/
+@font-face {
+	font-family: "Mafalda";
+	src: url("fonts/Mafalda/Mafalda-Light.otf") format("opentype"),
+	url("fonts/Mafalda/Mafalda-Normal.otf") format("opentype"),
+	url("fonts/Mafalda/Mafalda-Thin.otf") format("opentype");
+}
+
+.mafalda {
+	font-family: "Mafalda";
+	font-size: 50px;
+}
+
+.mafalda.par {
+	font-size: 35px;
+}
+/*******Mafalda*******/
+
+/*******Neoneon*******/
+@font-face {
+	font-family: "Neoneon";
+	src: url("fonts/Neoneon/neoneon.otf") format("opentype");
+}
+
+.neoneon {
+	font-family: "Neoneon";
+	font-size: 50px;
+}
+
+.neoneon.par {
+	font-size: 35px;
+}
+/*******Neoneon*******/
+
+/*******JabinTypeface*******/
+@font-face {
+	font-family: "JabinTypeface";
+	src: url("fonts/JabinTypeface/JabinTypeface.ttf") format("truetype");
+}
+
+.jabintypeface {
+	font-family: "JabinTypeface";
+	font-size: 50px;
+}
+.jabintypeface.par {
+	font-size: 35px;
+}
+/*******JabinTypeface*******/
+
+/*******Bahiana*******/
+@font-face {
+	font-family: "Bahiana";
+	src: url("fonts/Bahiana/Bahiana-Regular.ttf") format("truetype");
+}
+
+.bahiana {
+	font-family: "Bahiana";
+	font-size: 50px;
+}
+.bahiana.par {
+	font-size: 35px;
+}
+/*******Bahiana*******/
+
+/*******Weem*******/
+@font-face {
+	font-family: "Weem";
+	src: url("fonts/Weem/weem.otf") format("opentype");
+}
+
+.weem {
+	font-family: "Weem";
+	font-size: 50px;
+}
+.weem.par {
+	font-size: 35px;
+}
+/*******Weem*******/
+
+/*******Speck Display*******/
+@font-face {
+	font-family: "Speck Display";
+	src: url("fonts/Speck Display/sp.otf") format("opentype");
+}
+
+.sp {
+	font-family: "Speck Display";
+	font-size: 50px;
+}
+.sp.par {
+	font-size: 35px;
+}
+/*******Speck Display*******/
+
+/*******Befindisa*******/
+@font-face {
+	font-family: "Befindisa";
+	src: url("fonts/Befindisa/Befindisa.otf") format("opentype"), url("fonts/Befindisa/Befindisa.ttf") format("truetype");
+}
+
+.befindisa {
+	font-family: "Befindisa";
+	font-size: 50px;
+}
+.befindisa.par {
+	font-size: 35px;
+}
+/*******Befindisa*******/
+
+/*******Metrica*******/
+@font-face {
+	font-family: "Metrica";
+	src: url("fonts/Metrica/Metrica-Regular.otf") format("opentype");
+}
+
+.metrica {
+	font-family: "Metrica";
+	font-size: 50px;
+}
+.metrica.par {
+	font-size: 35px;
+}
+/*******Metrica*******/
+
+/*******Metropolis*******/
+@font-face {
+	font-family: "Metropolis";
+	src: url("fonts/Metropolis/Metropolis.otf") format("opentype");
+}
+
+.metropolis {
+	font-family: "Metropolis";
+	font-size: 50px;
+}
+.metropolis.par {
+	font-size: 35px;
+}
+/*******Metropolis*******/
+
+/*******NWB*******/
+@font-face {
+	font-family: "NWB";
+	src: url("fonts/NWB/NWB-Regular.otf") format("opentype");
+}
+
+.nwb {
+	font-family: "NWB";
+	font-size: 50px;
+}
+.nwb.par {
+	font-size: 35px;
+}
+/*******NWB*******/
+
+/**********************************SHRIFTS**********************************/
+
+header.bg-dark {
+	position: fixed;
+	width: 100%;
+	min-height: 60px;
+	max-height: 140px;
+	z-index: 2;
+}
+
+.main-text{
+	color: white;
+	font-family: "Cormorant SC", serif;
+	font-size: 32px;
+	font-weight:bolder;
+	line-height: 2em;
+	transition: .5s;
+}
+
+.sec1 {
+	height: 45vh;
+	background:rgba(0,0,0, 0.8);
+}
+
+.sec1 h1 {
+	position: absolute;
+	text-align: center;
+	top: 15%;
+	font-size: 70px;
+	z-index: 1;
+}
+
+.marketing {
+	height: 100%;
+	background-color: rgba(255,255,255, 0.8);
+	box-shadow: 0 0 30px purple,0 0 30px blue,0 0 30px skyblue;
+	z-index: 9999;
+}
+
+@media screen and (max-width: 576px) {
+	.sec1 h1 {
+		top: 15%;
+		font-size: 40px;
+		z-index: 1;
+	}
+}
+
+@media screen and (min-width: 577px)  and (max-width: 992px) {
+	.sec1 h1 {
+		top: 18%;
+		font-size: 50px;
+		z-index: 1;
+	}
+}
