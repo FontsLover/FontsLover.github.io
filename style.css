@@ -2,7 +2,79 @@ body {
 	background: #8A2387;
 	background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
 	background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+	overflow: auto;
 }
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+	padding: 0;
+}
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	box-shadow: 0 0 15px black;
+	z-index: 9999;
+}
+
+.nav-link.dropdown-toggle {
+	overflow: hidden;
+}
+
+.dropdown-menu {
+	max-height: 250px;
+	overflow-y: scroll;
+}
+
+form.form-inline.my-2.my-lg-0.ml-auto {
+	flex-flow: unset;
+	list-style-type: none;
+	transition: .6s;
+}
+
+form.form-inline.my-2.my-lg-0.ml-auto li {
+	background-color: inherit;
+	transition: .6s;
+}
+
+form.form-inline.my-2.my-lg-0.ml-auto li:hover {
+	background-color: rgba(0,0,0, 0.2);
+	padding: 0;
+	height: 100%;
+	transition: .6s;
+}
+
+form.form-inline.my-2.my-lg-0.ml-auto li a {
+	line-height: 3em;
+	color: white;
+	height: 65px;
+	transition: .6s;
+}
+
+form.form-inline.my-2.my-lg-0.ml-auto li a:hover {
+	text-shadow: 0 0 10px white;
+	transition: .6s;
+}
+
+div.mx-auto {
+	min-height: 65px;
+	line-height: 3.5em;
+}
+
+.navbar-nav.w-100 li{
+	padding: .5rem 1rem;
+	transition: .6s;
+}
+
+.navbar-nav.w-100 li a:hover {
+	text-shadow: 0 0 10px white;
+	transition: .6s;
+}
+
+.navbar-nav.w-100 li a {
+	transition: .6s;
+}
+
 /**********************************SHRIFTS**********************************/
 
 /*******Specta Retro*******/
@@ -144,6 +216,15 @@ body {
 .metrica.par {
 	font-size: 35px;
 }
+
+.navbar-brand.order-0.mx-auto.pr-3.specta-brand.metrica {
+	font-family: "Specta Retro Script";
+	font-size: 35px;
+}
+
+.navbar-brand {
+	padding: .5rem 1rem;
+}
 /*******Metrica*******/
 
 /*******Metropolis*******/
@@ -177,35 +258,34 @@ body {
 /*******NWB*******/
 
 /**********************************SHRIFTS**********************************/
+.mx-auto.order-0 {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
 
-header.bg-dark {
-	position: fixed;
-	width: 100%;
-	min-height: 60px;
-	max-height: 140px;
-	z-index: 2;
+
+.sec1 {
+	text-align: center;
+	height: 45vh;
+	background:rgba(0,0,0, 0.8);
+	position: relative;
 }
 
 .main-text{
 	color: white;
 	font-family: "Cormorant SC", serif;
-	font-size: 32px;
+	font-size: 50px;
 	font-weight:bolder;
-	line-height: 2em;
+	margin: 0;
+    position: absolute;               /* 2 */
+    top: 50%;                         /* 3 */
+    transform: translate(0, -50%);   /* 4 */
 	transition: .5s;
-}
-
-.sec1 {
-	height: 45vh;
-	background:rgba(0,0,0, 0.8);
-}
-
-.sec1 h1 {
-	position: absolute;
-	text-align: center;
-	top: 15%;
-	font-size: 70px;
-	z-index: 1;
 }
 
 .marketing {
@@ -213,19 +293,28 @@ header.bg-dark {
 	background-color: rgba(255,255,255, 0.8);
 	box-shadow: 0 0 30px purple,0 0 30px blue,0 0 30px skyblue;
 	z-index: 9999;
+	transition: .6s;
+}
+
+.list-group-item {
+	word-wrap: break-word;
 }
 
 @media screen and (max-width: 576px) {
 	.sec1 h1 {
-		top: 15%;
 		font-size: 40px;
 		z-index: 1;
+	}
+	.marketing {
+		background-color: rgba(255,255,255, 0.7);
+		box-shadow: 0 0 30px purple,0 0 30px blue,0 0 30px skyblue;
+		width: 95%!important;
+		transition: .6s;
 	}
 }
 
 @media screen and (min-width: 577px)  and (max-width: 992px) {
 	.sec1 h1 {
-		top: 18%;
 		font-size: 50px;
 		z-index: 1;
 	}
