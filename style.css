@@ -530,3 +530,170 @@ div.mx-auto {
 		font-size: 1.75em;
 	}
 }
+
+/*****************************************footer*****************************************/
+.col_white_amrc { 
+	color:white;
+}
+
+footer { 
+	width:100%; 
+	min-height:1px;
+	height: 100%; 
+	padding:10px 0px 25px 0px ;
+	z-index: 1000;
+	font-family: 'Lora', serif;
+}
+.pt2 { 
+	font-family: 'Lora', serif;
+	font-size: 22px;
+	padding-top:40px ; 
+	margin-bottom:20px ;
+}
+
+footer p { 
+	font-size:18px; 
+	color:white; 
+	padding-bottom:0px; 
+	margin-bottom:8px;
+}
+
+.mb10 { 
+	padding-bottom:15px ;
+}
+
+.footer_ul_amrc { 
+	margin:0px ; 
+	list-style-type:none ; 
+	font-size:16px; 
+	padding:0px 0px 10px 0px ; 
+}
+
+.footer_ul_amrc li {
+	padding:0px 0px 5px 0px;
+}
+
+.footer_ul_amrc li a{ 
+	color:lightgray;
+	transition: .5s;
+}
+
+.footer_ul_amrc li a:hover { 
+	color:white; 
+	text-decoration:none;
+	transition: .5s;
+}
+.fleft { 
+	float:left;
+}
+.padding-right { 
+	padding-right:10px; 
+}
+
+.footer_ul2_amrc {
+	margin:0px; 
+	list-style-type:none; 
+	padding:0px;
+	font-size: 1.3em;
+}
+
+.footer_ul2_amrc li p { 
+	display:contents; 
+	color:lightgray;
+}
+
+.footer_ul2_amrc li a {
+	color:lightblue;
+}
+
+.footer_ul2_amrc li a:hover { 
+	text-decoration:underline;
+}
+
+.footer_ul2_amrc li i { 
+	margin-top:5px;
+	color: white;
+	transition: .6s;
+}
+
+.footer_ul2_amrc li i:hover {
+	color:white;
+	transition: .6s;
+}
+
+.bottom_border { 
+	border-bottom:1px solid white; 
+	padding-bottom:20px;
+}
+
+.mailto_link, .mailto_link a {
+	text-decoration: none;
+	color:white;
+	transition:.5s;
+}
+
+.mailto_link:hover, .mailto_link a:hover {
+	color:yellow;
+	text-decoration: unset;
+	transition:.5s;
+}
+
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+.foote_bottom_ul_amrc li { 
+	display:inline;
+}
+
+.foote_bottom_ul_amrc li a { 
+	color:white; 
+	margin:0 12px;
+}
+
+.social_footer_ul { 
+	display:table; 
+	margin:15px auto 0 auto;
+	list-style-type:none;  
+	padding: 0;
+}
+
+.social_footer_ul li {
+	display: inline-block; 
+	padding-left:20px; 
+	padding-top:10px; 
+	float:left; 
+}
+
+.social_footer_ul li i {  
+	width:1em; 
+	height:1em; 
+	text-align:center;
+	transition: .6s;
+}
+
+.social_footer_ul li a { 
+	width: 42px;
+	height: 42px;
+    line-height: 1.6em;
+	color:white; 
+	border:1px solid #CCC; 
+	padding:8px;
+	border-radius:50%;
+	transition: .6s;
+	display: block;
+	margin-bottom: 1em;
+	padding-left:12px;
+}
+
+.social_footer_ul li a:hover {
+	color:white;
+	box-shadow: 0 0 20px white;
+	transition: .6s;
+}
