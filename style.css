@@ -27,7 +27,9 @@ body {
 	min-width: 300px!important;
 }
 
-
+.dropdown-item:hover {
+	background-color: rgba(0,0,0,0.15)!important;
+}
 
 form.form-inline.my-2.my-lg-0.ml-auto {
 	flex-flow: unset;
@@ -78,11 +80,49 @@ div.mx-auto {
 	transition: .6s;
 }
 
+.top_button {
+	position: fixed;
+	text-align: center;
+	right: 5em;
+	bottom: 5em;
+	border:2px solid lightgray;
+	border-radius: 50%;
+	width: 5em;
+	height: 5em;
+	overflow: hidden;
+	transition: .5s;
+	z-index: 9999;
+}
+
+.top_button:hover {
+	background-color: rgba(192,192,192, 0.6);
+	border-color: white;
+	transition:.5s;
+	box-shadow: 0 0 20px black;
+}
+
+.top_button i {
+	height: 100%;
+	width: 100%;
+	font-size: 2.5em;
+	color: lightgray;
+	padding-top: .4em;
+	z-index: 9999;
+	transition:.5s;
+}
+
+.top_button i:hover {
+	color: #fff;
+	transition:.5s;
+}
+
 /**********************************SHRIFTS**********************************/
 
 .font-link {
 	float: right;
-	font-size: 1rem;
+	line-height: 1;
+	font-size: 1.5rem;
+	font-weight: bold;
 }
 
 /*******Specta Retro*******/
@@ -308,6 +348,82 @@ div.mx-auto {
 	font-family: "nwb";
 }
 /*******NWB*******/
+
+/*******Anisette*******/
+@font-face {
+	font-family: "Anisette";
+	src: url("fonts/Anisette/Anisette Medium.otf") format("opentype");
+}
+
+.anis {
+	font-family: "Anisette";
+	font-size: 50px;
+}
+.anis.par {
+	font-size: 35px;
+}
+
+.anis-link {
+	font-family: "Anisette";
+}
+/*******Anisette*******/
+
+/*******Glamora Stencil*******/
+@font-face {
+	font-family: "Glamora Stencil";
+	src: url("fonts/Glamora/Glamora Stencil.otf") format("opentype");
+}
+
+.glamora {
+	font-family: "Glamora Stencil";
+	font-size: 50px;
+}
+.glamora.par {
+	font-size: 35px;
+}
+
+.glamora-link {
+	font-family: "Glamora Stencil";
+}
+/*******Glamora Stencil*******/
+
+/*******Presto Script Typeface*******/
+@font-face {
+	font-family: "Presto";
+	src: url("fonts/Presto Script Typeface/Presto.otf") format("opentype");
+}
+
+.presto {
+	font-family: "Presto";
+	font-size: 50px;
+}
+.presto.par {
+	font-size: 35px;
+}
+
+.presto-link {
+	font-family: "Presto";
+}
+/*******Presto Script Typeface*******/
+
+/*******Befolk Script*******/
+@font-face {
+	font-family: "Befolk";
+	src: url("fonts/Befolk Script/Befolk Script.otf") format("opentype"), url("fonts/Befolk Script/Befolk Script.ttf") format("trruetype");
+}
+
+.befolk {
+	font-family: "Befolk";
+	font-size: 50px;
+}
+.befolk.par {
+	font-size: 35px;
+}
+
+.befolk-link {
+	font-family: "Befolk";
+}
+/*******Befolk Script*******/
 
 /**********************************SHRIFTS**********************************/
 .mx-auto.order-0 {

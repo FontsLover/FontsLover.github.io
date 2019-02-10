@@ -8,9 +8,14 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<title>Beautiful fonts by Gregory Kadaner</title>
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<script src="js/wow.min.js"></script>
+	<script>
+       new WOW().init();
+    </script>
 </head>
-<body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body id="tooop">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="menu">
   
   <div class="mx-auto">
     	<h1 class="navbar-brand order-0 m-0 mx-auto pr-3 metrica">Fonts Lover</h1>
@@ -29,19 +34,21 @@
           Fonts
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Specta Retro Script<span class="font-link specta-link">A</span></a>
-          <a class="dropdown-item" href="#">Mafalda<span class="font-link mafalda-link">A</span></a>
-          <a class="dropdown-item" href="#">Neoneon<span class="font-link neoneon-link">A</span></a>
-          <a class="dropdown-item" href="#">Jabin Typeface<span class="font-link jabintypeface-link">A</span></a>
-          <a class="dropdown-item" href="#">Bahiana<span class="font-link bahiana-link">A</span></a>
-          <a class="dropdown-item" href="#">Weem<span class="font-link weem-link">A</span></a>
-          <a class="dropdown-item" href="#">Speck Display<span class="font-link sp-link">A</span></a>
-          <a class="dropdown-item" href="#">Befindisa<span class="font-link befindisa-link">A</span></a>
-          <a class="dropdown-item" href="#">Metrica<span class="font-link metrica-link">A</span></a>
-          <a class="dropdown-item" href="#">Metropolis<span class="font-link metropolis-link">A</span></a>
-          <a class="dropdown-item" href="#">NWB Ultraviolent - Regular<span class="font-link nwb-link">A</span></a>
-          <a class="dropdown-item" href="#">Shrift<span class="font-link specta-link">A</span></a>
-          <a class="dropdown-item" href="#">Shrift<span class="font-link specta-link">A</span></a>
+          <a class="dropdown-item" href="#font-specta">Specta Retro Script<span class="font-link specta-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-mafalda">Mafalda<span class="font-link mafalda-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-neoneon">Neoneon<span class="font-link neoneon-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-jabin">Jabin Typeface<span class="font-link jabintypeface-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-bahiana">Bahiana<span class="font-link bahiana-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-weem">Weem<span class="font-link weem-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-speck">Speck Display<span class="font-link sp-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-befindisa">Befindisa<span class="font-link befindisa-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-metrica">Metrica<span class="font-link metrica-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-metropolis">Metropolis<span class="font-link metropolis-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-nwb">NWB Ultraviolent - Regular<span class="font-link nwb-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-anis">Anisette<span class="font-link anis-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-glamora">Glamora Stencil<span class="font-link glamora-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-presto">Presto Script Typeface<span class="font-link presto-link">Aa</span></a>
+          <a class="dropdown-item" href="#font-befolk">Befolk Script<span class="font-link befolk-link">Aa</span></a>
         </div>
       </li>
       <li class="nav-item">
@@ -62,9 +69,10 @@
       </li>
     </form>
   </div>
+
 </nav>
 
-
+  	  <div class="top_button wow bounceInDown" data-wow-duration="2s"><a href="#tooop"><i class="fa fa-angle-up"></i></a></div>		
 
 	<section class="sec1 w-100">
 				<h1 class="main-text w-100">Choose any font you like more!<h1>
@@ -73,7 +81,7 @@
 	<section class="sec2 w-100">
 		<div class="container marketing">
 
-			<div class="row featurette justify-content-center align-items-center">
+			<div class="row featurette justify-content-center align-items-center" id="font-specta">
 				<h1 class="list-group-item w-100 text-center specta mt-3">Specta Retro Script</h1>
 				<br>
 				<hr class="text-slicer d-block w-75">
@@ -86,7 +94,7 @@
 
 			<hr class="featurette-devider">
 
-			<div class="row featurette justify-content-center align-items-center">
+			<div class="row featurette justify-content-center align-items-center" id="font-mafalda">
 				<h1 class="list-group-item w-100 text-center mafalda mt-3">Mafalda</h1>
 				<br>
 				<hr class="text-slicer d-block w-75">
@@ -99,7 +107,7 @@
 
 			<hr class="featurette-devider">
 
-			<div class="row featurette justify-content-center align-items-center">
+			<div class="row featurette justify-content-center align-items-center" id="font-neoneon">
 				<h1 class="list-group-item w-100 text-center neoneon mt-3">Neoneon</h1>
 				<br>
 				<hr class="text-slicer d-block w-75">
@@ -112,7 +120,7 @@
 
 			<hr class="featurette-devider">
 
-			<div class="row featurette justify-content-center align-items-center">
+			<div class="row featurette justify-content-center align-items-center" id="font-jabin">
 				<h1 class="list-group-item w-100 text-center jabintypeface mt-3">JabinTypeface</h1>
 				<br>
 				<hr class="text-slicer d-block w-75">
@@ -125,7 +133,7 @@
 
 			<hr class="featurette-devider">
 
-			<div class="row featurette justify-content-center align-items-center">
+			<div class="row featurette justify-content-center align-items-center" id="font-bahiana">
 				<h1 class="list-group-item w-100 text-center bahiana mt-3">Bahiana</h1>
 				<br>
 				<hr class="text-slicer d-block w-75">
@@ -138,7 +146,7 @@
 
 			<hr class="featurette-devider">
 
-			<div class="row featurette justify-content-center align-items-center">
+			<div class="row featurette justify-content-center align-items-center" id="font-weem">
 				<h1 class="list-group-item w-100 text-center weem mt-3">Weem</h1>
 				<br>
 				<hr class="text-slicer d-block w-75">
@@ -151,7 +159,7 @@
 
 			<hr class="featurette-devider">
 
-			<div class="row featurette justify-content-center align-items-center">
+			<div class="row featurette justify-content-center align-items-center" id="font-speck">
 				<h1 class="list-group-item w-100 text-center sp mt-3">Speck Display</h1>
 				<br>
 				<hr class="text-slicer d-block w-75">
@@ -164,7 +172,7 @@
 
 			<hr class="featurette-devider">
 
-			<div class="row featurette justify-content-center align-items-center">
+			<div class="row featurette justify-content-center align-items-center" id="font-befindisa">
 				<h1 class="list-group-item w-100 text-center befindisa mt-3">Befindisa</h1>
 				<br>
 				<hr class="text-slicer d-block w-75">
@@ -177,7 +185,7 @@
 
 			<hr class="featurette-devider">
 
-			<div class="row featurette justify-content-center align-items-center">
+			<div class="row featurette justify-content-center align-items-center" id="font-metrica">
 				<h1 class="list-group-item w-100 text-center metrica mt-3">Metrica</h1>
 				<br>
 				<hr class="text-slicer d-block w-75">
@@ -190,7 +198,7 @@
 
 			<hr class="featurette-devider">
 
-			<div class="row featurette justify-content-center align-items-center">
+			<div class="row featurette justify-content-center align-items-center" id="font-metropolis">
 				<h1 class="list-group-item w-100 text-center metropolis mt-3">Metropolis</h1>
 				<br>
 				<hr class="text-slicer d-block w-75">
@@ -203,7 +211,7 @@
 
 			<hr class="featurette-devider">
 
-			<div class="row featurette justify-content-center align-items-center">
+			<div class="row featurette justify-content-center align-items-center" id="font-nwb">
 				<h1 class="list-group-item w-100 text-center nwb mt-3">NWB Ultraviolent - Regular</h1>
 				<br>
 				<hr class="text-slicer d-block w-75">
@@ -215,11 +223,50 @@
 			</div>
 
 			<hr class="featurette-devider">
+			
+			<div class="row featurette justify-content-center align-items-center" id="font-anis">
+				<h1 class="list-group-item w-100 text-center anis mt-3">Anisette</h1>
+				<br>
+				<hr class="text-slicer d-block w-75">
+				<p class="lead text-center anis par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<a href="fonts/NWB/NWB Ultraviolent Demo.zip" class="btn btn-outline-dark btn-lg text-center" download>Anisette</a>
+			</div>
+
+			<hr class="featurette-devider">
+			
+			<div class="row featurette justify-content-center align-items-center" id="font-presto">
+				<h1 class="list-group-item w-100 text-center presto mt-3">Presto Script Typeface</h1>
+				<br>
+				<hr class="text-slicer d-block w-75">
+				<p class="lead text-center presto par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<a href="fonts/NWB/NWB Ultraviolent Demo.zip" class="btn btn-outline-dark btn-lg text-center" download>Presto Script Typeface</a>
+			</div>
+
+			<hr class="featurette-devider">
+			
+			<div class="row featurette justify-content-center align-items-center" id="font-befolk">
+				<h1 class="list-group-item w-100 text-center befolk mt-3">Befolk Script</h1>
+				<br>
+				<hr class="text-slicer d-block w-75">
+				<p class="lead text-center befolk par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<a href="fonts/NWB/NWB Ultraviolent Demo.zip" class="btn btn-outline-dark btn-lg text-center" download>Endoell Typeface</a>
+			</div>
+
+			<hr class="featurette-devider">
+			
 		</div>
 	</section>
-<script src="js.js"></script>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/smooth_scrolling.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
