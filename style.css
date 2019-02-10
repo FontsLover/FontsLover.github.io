@@ -479,11 +479,34 @@ div.mx-auto {
 		width: 95%!important;
 		transition: .6s;
 	}
+	.top_button {
+		right: 2em;
+		bottom: 2em;
+		width: 2.5em;
+		height: 2.5em;
+	}
+
+	.top_button i {
+		font-size: 1.25em;
+	}
 }
 
 @media screen and (min-width: 577px)  and (max-width: 992px) {
 	.sec1 h1 {
 		font-size: 50px;
 		z-index: 1;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width:1158px){
+	.top_button {
+		right: 3em;
+		bottom: 3em;
+		width: 3.5em;
+		height: 3.5em;
+	}
+
+	.top_button i {
+		font-size: 1.75em;
 	}
 }
