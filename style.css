@@ -24,7 +24,10 @@ body {
 .dropdown-menu {
 	max-height: 250px;
 	overflow-y: scroll;
+	min-width: 300px!important;
 }
+
+
 
 form.form-inline.my-2.my-lg-0.ml-auto {
 	flex-flow: unset;
@@ -77,6 +80,11 @@ div.mx-auto {
 
 /**********************************SHRIFTS**********************************/
 
+.font-link {
+	float: right;
+	font-size: 1rem;
+}
+
 /*******Specta Retro*******/
 @font-face {
 	font-family: "Specta Retro Script";
@@ -91,6 +99,10 @@ div.mx-auto {
 
 .specta.par{
 	font-size: 35px; 
+}
+
+.specta-link {
+	font-family: "Specta Retro Script"
 }
 /*******Specta Retro*******/
 
@@ -110,6 +122,10 @@ div.mx-auto {
 .mafalda.par {
 	font-size: 35px;
 }
+
+.mafalda-link {
+	font-family: "Mafalda";
+}
 /*******Mafalda*******/
 
 /*******Neoneon*******/
@@ -126,6 +142,10 @@ div.mx-auto {
 .neoneon.par {
 	font-size: 35px;
 }
+
+.neoneon-link {
+	font-family: "Neoneon";
+}
 /*******Neoneon*******/
 
 /*******JabinTypeface*******/
@@ -140,6 +160,10 @@ div.mx-auto {
 }
 .jabintypeface.par {
 	font-size: 35px;
+}
+
+.jabintypeface-link {
+	font-family: "JabinTypeface";
 }
 /*******JabinTypeface*******/
 
@@ -156,6 +180,10 @@ div.mx-auto {
 .bahiana.par {
 	font-size: 35px;
 }
+
+.bahiana-link {
+	font-family: "Bahiana";
+}
 /*******Bahiana*******/
 
 /*******Weem*******/
@@ -170,6 +198,10 @@ div.mx-auto {
 }
 .weem.par {
 	font-size: 35px;
+}
+
+.weem-link {
+	font-family: "Weem";
 }
 /*******Weem*******/
 
@@ -186,6 +218,10 @@ div.mx-auto {
 .sp.par {
 	font-size: 35px;
 }
+
+.sp-link {
+	font-family: "Speck Display";
+}
 /*******Speck Display*******/
 
 /*******Befindisa*******/
@@ -201,6 +237,10 @@ div.mx-auto {
 .befindisa.par {
 	font-size: 35px;
 }
+
+.befindisa-link {
+	font-family: "Befindisa";
+}
 /*******Befindisa*******/
 
 /*******Metrica*******/
@@ -215,6 +255,10 @@ div.mx-auto {
 }
 .metrica.par {
 	font-size: 35px;
+}
+
+.metrica-link {
+	font-family: "Metrica";
 }
 
 .navbar-brand.order-0.mx-auto.pr-3.specta-brand.metrica {
@@ -240,6 +284,10 @@ div.mx-auto {
 .metropolis.par {
 	font-size: 35px;
 }
+
+.metropolis-link {
+	font-family: "Metropolis";
+}
 /*******Metropolis*******/
 
 /*******NWB*******/
@@ -254,6 +302,10 @@ div.mx-auto {
 }
 .nwb.par {
 	font-size: 35px;
+}
+
+.nwb-link {
+	font-family: "nwb";
 }
 /*******NWB*******/
 
