@@ -445,6 +445,46 @@ div.mx-auto {
 }
 /*******Befolk Script*******/
 
+/*******Againts*******/
+@font-face {
+	font-family: "Againts";
+	src: url("fonts/againts.ttf") format("truetype"), 
+	url("fonts/againts.otf") format("opentype");
+}
+
+.againts {
+	font-family: "Againts";
+	font-size: 50px;
+}
+.againts.par {
+	font-size: 35px;
+}
+
+.againts-link {
+	font-family: "Againts";
+}
+/*******Againts*******/
+
+/*******Sketch*******/
+@font-face {
+	font-family: "Sketch";
+	src: url("fonts/Sketch/sketch.ttf") format("truetype"), 
+	url("fonts/Sketch/sketch.otf") format("opentype");
+}
+
+.sketch {
+	font-family: "Againts";
+	font-size: 50px;
+}
+.sketch.par {
+	font-size: 35px;
+}
+
+.sketch-link {
+	font-family: "Againts";
+}
+/*******Sketch*******/
+
 /**********************************SHRIFTS**********************************/
 .mx-auto.order-0 {
 	-webkit-touch-callout: none;
