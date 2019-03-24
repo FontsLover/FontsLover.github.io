@@ -27,3 +27,11 @@
         }, 1500);
     });
 });
+
+document.getElementById("homepage").onclick = function() {
+  document.location.href = "../";
+}
+
+document.getElementById("aboutpage").onclick = function() {
+  document.location.href = "#";
+}
