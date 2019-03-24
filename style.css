@@ -448,8 +448,8 @@ div.mx-auto {
 /*******Againts*******/
 @font-face {
 	font-family: "Againts";
-	src: url("fonts/againts.ttf") format("truetype"), 
-	url("fonts/againts.otf") format("opentype");
+	src: url("fonts/Againts/againts.ttf") format("truetype"), 
+	url("fonts/Againts/againts.otf") format("opentype");
 }
 
 .againts {
@@ -468,12 +468,12 @@ div.mx-auto {
 /*******Sketch*******/
 @font-face {
 	font-family: "Sketch";
-	src: url("fonts/Sketch/sketch.ttf") format("truetype"), 
+	src: url("fonts/Sketch/sketch.ttf") format("truetype"),
 	url("fonts/Sketch/sketch.otf") format("opentype");
 }
 
 .sketch {
-	font-family: "Againts";
+	font-family: "Sketch";
 	font-size: 50px;
 }
 .sketch.par {
@@ -481,7 +481,8 @@ div.mx-auto {
 }
 
 .sketch-link {
-	font-family: "Againts";
+	font-family: "Sketch";
+	font-weight: lighter;
 }
 /*******Sketch*******/
 
