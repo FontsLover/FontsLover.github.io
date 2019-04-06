@@ -489,6 +489,46 @@ div.mx-auto {
 }
 /*******Sketch*******/
 
+/*******Western*******/
+@font-face {
+	font-family: "Western";
+	src: url("fonts/Western/west.otf") format("opentype");
+}
+
+.west {
+	font-family: "Western";
+	font-size: 50px;
+}
+.west.par {
+	font-size: 35px;
+}
+
+.west-link {
+	font-family: "Western";
+	font-weight: lighter;
+}
+/*******Western*******/
+
+/*******Grafity 3D*******/
+@font-face {
+	font-family: "Grafity 3D";
+	src: url("fonts/Grafity3D/graf.ttf") format("truetype");
+}
+
+.graf {
+	font-family: "Grafity 3D";
+	font-size: 50px;
+}
+.graf.par {
+	font-size: 35px;
+}
+
+.graf-link {
+	font-family: "Grafity 3D";
+	font-weight: lighter;
+}
+/*******Grafity 3D*******/
+
 /**********************************SHRIFTS**********************************/
 .mx-auto.order-0 {
 	-webkit-touch-callout: none;
