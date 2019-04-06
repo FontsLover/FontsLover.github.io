@@ -414,6 +414,25 @@ div.mx-auto {
 }
 /*******Metropolis*******/
 
+/*******Feathergraphy*******/
+@font-face {
+	font-family: "Feathergraphy";
+	src: url("fonts/Mons Grebeck/feathergraphy.ttf") format("truetype");
+}
+
+.feathergraphy {
+	font-family: "Feathergraphy";
+	font-size: 50px;
+}
+.feathergraphy.par {
+	font-size: 35px;
+}
+
+.feathergraphy-link {
+	font-family: "Feathergraphy";
+}
+/*******Feathergraphy*******/
+
 /*******Neoneon*******/
 @font-face {
 	font-family: "Neoneon";
@@ -532,6 +551,26 @@ div.mx-auto {
 	font-family: "Specta Retro Script"
 }
 /*******Specta Retro*******/
+
+/*******Sullivan*******/
+@font-face {
+	font-family: "Sullivan";
+	src: url("fonts/Sullivan/sullivan.otf") format("opentype");
+}
+
+.sullivan {
+	font-family: "Sullivan";
+	font-size: 50px;
+}
+.sullivan.par {
+	font-size: 35px;
+}
+
+.sullivan-link {
+	font-family: "Sullivan";
+	font-weight: lighter;
+}
+/*******Weem*******/
 
 /*******Weem*******/
 @font-face {
