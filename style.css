@@ -152,26 +152,202 @@ div.mx-auto {
 	font-weight: bold;
 }
 
-/*******Specta Retro*******/
+
+/*******Againts*******/
 @font-face {
-	font-family: "Specta Retro Script";
-	src: url("fonts/Specta Retro/Specta Retro Script.ttf") format("truetype"), 
-	url("fonts/Specta Retro Script.otf") format("opentype");
+	font-family: "Againts";
+	src: url("fonts/Againts/againts.ttf") format("truetype"), 
+	url("fonts/Againts/againts.otf") format("opentype");
 }
 
-.specta {
-	font-family: "Specta Retro Script";
+.againts {
+	font-family: "Againts";
 	font-size: 50px;
 }
-
-.specta.par{
-	font-size: 35px; 
+.againts.par {
+	font-size: 35px;
 }
 
-.specta-link {
-	font-family: "Specta Retro Script"
+.againts-link {
+	font-family: "Againts";
 }
-/*******Specta Retro*******/
+/*******Againts*******/
+
+/*******Anisette*******/
+@font-face {
+	font-family: "Anisette";
+	src: url("fonts/Anisette/Anisette Medium.otf") format("opentype");
+}
+
+.anis {
+	font-family: "Anisette";
+	font-size: 50px;
+}
+.anis.par {
+	font-size: 35px;
+}
+
+.anis-link {
+	font-family: "Anisette";
+}
+/*******Anisette*******/
+
+/*******Aroly*******/
+@font-face {
+	font-family: "Aroly";
+	src: url("fonts/Aroly/aroly.ttf") format("truetype");
+}
+
+.aroly {
+	font-family: "Aroly";
+	font-size: 50px;
+	font-weight: bold;
+}
+.aroly.par {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.aroly-link {
+	font-family: "Aroly";
+}
+/*******Aroly*******/
+
+/*******Bahiana*******/
+@font-face {
+	font-family: "Bahiana";
+	src: url("fonts/Bahiana/Bahiana-Regular.ttf") format("truetype");
+}
+
+.bahiana {
+	font-family: "Bahiana";
+	font-size: 50px;
+}
+.bahiana.par {
+	font-size: 35px;
+}
+
+.bahiana-link {
+	font-family: "Bahiana";
+}
+/*******Bahiana*******/
+
+/*******Befindisa*******/
+@font-face {
+	font-family: "Befindisa";
+	src: url("fonts/Befindisa/Befindisa.otf") format("opentype"), url("fonts/Befindisa/Befindisa.ttf") format("truetype");
+}
+
+.befindisa {
+	font-family: "Befindisa";
+	font-size: 50px;
+}
+.befindisa.par {
+	font-size: 35px;
+}
+
+.befindisa-link {
+	font-family: "Befindisa";
+}
+/*******Befindisa*******/
+
+/*******Befolk Script*******/
+@font-face {
+	font-family: "Befolk";
+	src: url("fonts/Befolk Script/Befolk Script.otf") format("opentype"), url("fonts/Befolk Script/Befolk Script.ttf") format("trruetype");
+}
+
+.befolk {
+	font-family: "Befolk";
+	font-size: 50px;
+}
+.befolk.par {
+	font-size: 35px;
+}
+
+.befolk-link {
+	font-family: "Befolk";
+}
+/*******Befolk Script*******/
+
+/*******Bulgary*******/
+@font-face {
+	font-family: "Bulgary";
+	src: url("fonts/Bulgary/BulgaryReg.ttf") format("truetype");
+}
+
+.bulgary {
+	font-family: "Bulgary";
+	font-size: 60px;
+	
+}
+.bulgary.par {
+	font-size: 40px;
+	
+}
+
+.bulgary-link {
+	font-family: "Bulgary";
+}
+/*******Bulgary*******/
+
+/*******Glamora Stencil*******/
+@font-face {
+	font-family: "Glamora Stencil";
+	src: url("fonts/Glamora/Glamora Stencil.otf") format("opentype");
+}
+
+.glamora {
+	font-family: "Glamora Stencil";
+	font-size: 50px;
+}
+.glamora.par {
+	font-size: 35px;
+}
+
+.glamora-link {
+	font-family: "Glamora Stencil";
+}
+/*******Glamora Stencil*******/
+
+/*******Grafity 3D*******/
+@font-face {
+	font-family: "Grafity 3D";
+	src: url("fonts/Grafity3D/graf.ttf") format("truetype");
+}
+
+.graf {
+	font-family: "Grafity 3D";
+	font-size: 50px;
+}
+.graf.par {
+	font-size: 35px;
+}
+
+.graf-link {
+	font-family: "Grafity 3D";
+	font-weight: lighter;
+}
+/*******Grafity 3D*******/
+
+/*******JabinTypeface*******/
+@font-face {
+	font-family: "JabinTypeface";
+	src: url("fonts/JabinTypeface/JabinTypeface.ttf") format("truetype");
+}
+
+.jabintypeface {
+	font-family: "JabinTypeface";
+	font-size: 50px;
+}
+.jabintypeface.par {
+	font-size: 35px;
+}
+
+.jabintypeface-link {
+	font-family: "JabinTypeface";
+}
+/*******JabinTypeface*******/
 
 /*******Mafalda*******/
 @font-face {
@@ -194,121 +370,6 @@ div.mx-auto {
 	font-family: "Mafalda";
 }
 /*******Mafalda*******/
-
-/*******Neoneon*******/
-@font-face {
-	font-family: "Neoneon";
-	src: url("fonts/Neoneon/neoneon.otf") format("opentype");
-}
-
-.neoneon {
-	font-family: "Neoneon";
-	font-size: 50px;
-}
-
-.neoneon.par {
-	font-size: 35px;
-}
-
-.neoneon-link {
-	font-family: "Neoneon";
-}
-/*******Neoneon*******/
-
-/*******JabinTypeface*******/
-@font-face {
-	font-family: "JabinTypeface";
-	src: url("fonts/JabinTypeface/JabinTypeface.ttf") format("truetype");
-}
-
-.jabintypeface {
-	font-family: "JabinTypeface";
-	font-size: 50px;
-}
-.jabintypeface.par {
-	font-size: 35px;
-}
-
-.jabintypeface-link {
-	font-family: "JabinTypeface";
-}
-/*******JabinTypeface*******/
-
-/*******Bahiana*******/
-@font-face {
-	font-family: "Bahiana";
-	src: url("fonts/Bahiana/Bahiana-Regular.ttf") format("truetype");
-}
-
-.bahiana {
-	font-family: "Bahiana";
-	font-size: 50px;
-}
-.bahiana.par {
-	font-size: 35px;
-}
-
-.bahiana-link {
-	font-family: "Bahiana";
-}
-/*******Bahiana*******/
-
-/*******Weem*******/
-@font-face {
-	font-family: "Weem";
-	src: url("fonts/Weem/weem.otf") format("opentype");
-}
-
-.weem {
-	font-family: "Weem";
-	font-size: 50px;
-}
-.weem.par {
-	font-size: 35px;
-}
-
-.weem-link {
-	font-family: "Weem";
-}
-/*******Weem*******/
-
-/*******Speck Display*******/
-@font-face {
-	font-family: "Speck Display";
-	src: url("fonts/Speck Display/sp.otf") format("opentype");
-}
-
-.sp {
-	font-family: "Speck Display";
-	font-size: 50px;
-}
-.sp.par {
-	font-size: 35px;
-}
-
-.sp-link {
-	font-family: "Speck Display";
-}
-/*******Speck Display*******/
-
-/*******Befindisa*******/
-@font-face {
-	font-family: "Befindisa";
-	src: url("fonts/Befindisa/Befindisa.otf") format("opentype"), url("fonts/Befindisa/Befindisa.ttf") format("truetype");
-}
-
-.befindisa {
-	font-family: "Befindisa";
-	font-size: 50px;
-}
-.befindisa.par {
-	font-size: 35px;
-}
-
-.befindisa-link {
-	font-family: "Befindisa";
-}
-/*******Befindisa*******/
 
 /*******Metrica*******/
 @font-face {
@@ -353,6 +414,26 @@ div.mx-auto {
 }
 /*******Metropolis*******/
 
+/*******Neoneon*******/
+@font-face {
+	font-family: "Neoneon";
+	src: url("fonts/Neoneon/neoneon.otf") format("opentype");
+}
+
+.neoneon {
+	font-family: "Neoneon";
+	font-size: 50px;
+}
+
+.neoneon.par {
+	font-size: 35px;
+}
+
+.neoneon-link {
+	font-family: "Neoneon";
+}
+/*******Neoneon*******/
+
 /*******NWB*******/
 @font-face {
 	font-family: "NWB";
@@ -372,44 +453,6 @@ div.mx-auto {
 }
 /*******NWB*******/
 
-/*******Anisette*******/
-@font-face {
-	font-family: "Anisette";
-	src: url("fonts/Anisette/Anisette Medium.otf") format("opentype");
-}
-
-.anis {
-	font-family: "Anisette";
-	font-size: 50px;
-}
-.anis.par {
-	font-size: 35px;
-}
-
-.anis-link {
-	font-family: "Anisette";
-}
-/*******Anisette*******/
-
-/*******Glamora Stencil*******/
-@font-face {
-	font-family: "Glamora Stencil";
-	src: url("fonts/Glamora/Glamora Stencil.otf") format("opentype");
-}
-
-.glamora {
-	font-family: "Glamora Stencil";
-	font-size: 50px;
-}
-.glamora.par {
-	font-size: 35px;
-}
-
-.glamora-link {
-	font-family: "Glamora Stencil";
-}
-/*******Glamora Stencil*******/
-
 /*******Presto Script Typeface*******/
 @font-face {
 	font-family: "Presto";
@@ -428,45 +471,6 @@ div.mx-auto {
 	font-family: "Presto";
 }
 /*******Presto Script Typeface*******/
-
-/*******Befolk Script*******/
-@font-face {
-	font-family: "Befolk";
-	src: url("fonts/Befolk Script/Befolk Script.otf") format("opentype"), url("fonts/Befolk Script/Befolk Script.ttf") format("trruetype");
-}
-
-.befolk {
-	font-family: "Befolk";
-	font-size: 50px;
-}
-.befolk.par {
-	font-size: 35px;
-}
-
-.befolk-link {
-	font-family: "Befolk";
-}
-/*******Befolk Script*******/
-
-/*******Againts*******/
-@font-face {
-	font-family: "Againts";
-	src: url("fonts/Againts/againts.ttf") format("truetype"), 
-	url("fonts/Againts/againts.otf") format("opentype");
-}
-
-.againts {
-	font-family: "Againts";
-	font-size: 50px;
-}
-.againts.par {
-	font-size: 35px;
-}
-
-.againts-link {
-	font-family: "Againts";
-}
-/*******Againts*******/
 
 /*******Sketch*******/
 @font-face {
@@ -489,6 +493,65 @@ div.mx-auto {
 }
 /*******Sketch*******/
 
+/*******Speck Display*******/
+@font-face {
+	font-family: "Speck Display";
+	src: url("fonts/Speck Display/sp.otf") format("opentype");
+}
+
+.sp {
+	font-family: "Speck Display";
+	font-size: 50px;
+}
+.sp.par {
+	font-size: 35px;
+}
+
+.sp-link {
+	font-family: "Speck Display";
+}
+/*******Speck Display*******/
+
+/*******Specta Retro*******/
+@font-face {
+	font-family: "Specta Retro Script";
+	src: url("fonts/Specta Retro/Specta Retro Script.ttf") format("truetype"), 
+	url("fonts/Specta Retro Script.otf") format("opentype");
+}
+
+.specta {
+	font-family: "Specta Retro Script";
+	font-size: 50px;
+}
+
+.specta.par{
+	font-size: 35px; 
+}
+
+.specta-link {
+	font-family: "Specta Retro Script"
+}
+/*******Specta Retro*******/
+
+/*******Weem*******/
+@font-face {
+	font-family: "Weem";
+	src: url("fonts/Weem/weem.otf") format("opentype");
+}
+
+.weem {
+	font-family: "Weem";
+	font-size: 50px;
+}
+.weem.par {
+	font-size: 35px;
+}
+
+.weem-link {
+	font-family: "Weem";
+}
+/*******Weem*******/
+
 /*******Western*******/
 @font-face {
 	font-family: "Western";
@@ -508,26 +571,6 @@ div.mx-auto {
 	font-weight: lighter;
 }
 /*******Western*******/
-
-/*******Grafity 3D*******/
-@font-face {
-	font-family: "Grafity 3D";
-	src: url("fonts/Grafity3D/graf.ttf") format("truetype");
-}
-
-.graf {
-	font-family: "Grafity 3D";
-	font-size: 50px;
-}
-.graf.par {
-	font-size: 35px;
-}
-
-.graf-link {
-	font-family: "Grafity 3D";
-	font-weight: lighter;
-}
-/*******Grafity 3D*******/
 
 /**********************************SHRIFTS**********************************/
 .mx-auto.order-0 {
