@@ -291,6 +291,50 @@ div.mx-auto {
 }
 /*******Bulgary*******/
 
+/*******Carolus*******/
+@font-face {
+	font-family: "Carolus";
+	src: url("fonts/Carolus/carolus.ttf") format("truetype");
+}
+
+.carolus {
+	font-family: "Carolus";
+	font-size: 60px;
+	font-weight: bold;
+	
+}
+.carolus.par {
+	font-size: 40px;
+	
+}
+
+.carolus-link {
+	font-family: "Carolus";
+}
+/*******Carolus*******/
+
+/*******Comix*******/
+@font-face {
+	font-family: "Comix";
+	src: url("fonts/Comix/comix.otf") format("opentype");
+}
+
+.comix {
+	font-family: "Comix";
+	font-size: 60px;
+	font-weight: bold;
+	
+}
+.comix.par {
+	font-size: 40px;
+	
+}
+
+.comix-link {
+	font-family: "Comix";
+}
+/*******Comix*******/
+
 /*******Glamora Stencil*******/
 @font-face {
 	font-family: "Glamora Stencil";
@@ -330,6 +374,26 @@ div.mx-auto {
 }
 /*******Grafity 3D*******/
 
+/*******Greeka*******/
+@font-face {
+	font-family: "Greeka";
+	src: url("fonts/Greeka/Greeka.ttf") format("truetype");
+}
+
+.greeka {
+	font-family: "Greeka";
+	font-size: 50px;
+}
+.greeka.par {
+	font-size: 35px;
+}
+
+.greeka-link {
+	font-family: "Greeka";
+	font-weight: lighter;
+}
+/*******Greeka*******/
+
 /*******JabinTypeface*******/
 @font-face {
 	font-family: "JabinTypeface";
@@ -348,6 +412,25 @@ div.mx-auto {
 	font-family: "JabinTypeface";
 }
 /*******JabinTypeface*******/
+
+/*******King Arthur*******/
+@font-face {
+	font-family: "King Arthur";
+	src: url("fonts/KingArthur/KingArthur.ttf") format("truetype");
+}
+
+.kingarthur {
+	font-family: "King Arthur";
+	font-size: 50px;
+}
+.kingarthur.par {
+	font-size: 35px;
+}
+
+.kingarthur-link {
+	font-family: "King Arthur";
+}
+/*******King Arthur*******/
 
 /*******Mafalda*******/
 @font-face {
@@ -472,6 +555,25 @@ div.mx-auto {
 }
 /*******NWB*******/
 
+/*******Patricia*******/
+@font-face {
+	font-family: "Patricia";
+	src: url("fonts/Patricia/patricia.ttf") format("truetype");
+}
+
+.patricia {
+	font-family: "Patricia";
+	font-size: 50px;
+}
+.patricia.par {
+	font-size: 35px;
+}
+
+.patricia-link {
+	font-family: "Patricia";
+}
+/*******Patricia*******/
+
 /*******Presto Script Typeface*******/
 @font-face {
 	font-family: "Presto";
@@ -570,7 +672,26 @@ div.mx-auto {
 	font-family: "Sullivan";
 	font-weight: lighter;
 }
-/*******Weem*******/
+/*******Sullivan*******/
+
+/*******Viking*******/
+@font-face {
+	font-family: "Viking";
+	src: url("fonts/Viking/Viking.ttf") format("truetype");
+}
+
+.viking {
+	font-family: "Viking";
+	font-size: 40px;
+}
+.viking.par {
+	font-size: 25px;
+}
+
+.viking-link {
+	font-family: "Viking";
+}
+/*******Viking*******/
 
 /*******Weem*******/
 @font-face {
