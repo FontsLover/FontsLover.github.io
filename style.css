@@ -395,6 +395,46 @@ div.mx-auto {
 }
 /*******Greeka*******/
 
+/*******Grey*******/
+@font-face {
+	font-family: "Grey";
+	src: url("fonts/Grey/grey.ttf") format("truetype");
+}
+
+.grey {
+	font-family: "Grey";
+	font-size: 50px;
+}
+.grey.par {
+	font-size: 35px;
+}
+
+.grey-link {
+	font-family: "Grey";
+	font-weight: lighter;
+}
+/*******Grey*******/
+
+/*******Inverse*******/
+@font-face {
+	font-family: "Inverse";
+	src: url("fonts/Inverse/inverse.ttf") format("truetype");
+}
+
+.inverse {
+	font-family: "Inverse";
+	font-size: 50px;
+}
+.inverse.par {
+	font-size: 35px;
+}
+
+.inverse-link {
+	font-family: "Inverse";
+	font-weight: lighter;
+}
+/*******Grey*******/
+
 /*******JabinTypeface*******/
 @font-face {
 	font-family: "JabinTypeface";
@@ -593,6 +633,45 @@ div.mx-auto {
 	font-family: "Presto";
 }
 /*******Presto Script Typeface*******/
+
+/*******Rastazm*******/
+@font-face {
+	font-family: "Rastazm";
+	src: url("fonts/Rastazm/rastazm.otf") format("opentype"),
+	url("fonts/Rastazm/rastazm.ttf") format("truetype");
+}
+
+.rastazm {
+	font-family: "Rastazm";
+	font-size: 50px;
+}
+.rastazm.par {
+	font-size: 35px;
+}
+
+.rastazm-link {
+	font-family: "Rastazm";
+}
+/*******Rastazm*******/
+
+/*******Saqorie*******/
+@font-face {
+	font-family: "Saqorie";
+	src: url("fonts/Saqorie/saqorie.otf") format("opentype");
+}
+
+.saqorie {
+	font-family: "Saqorie";
+	font-size: 50px;
+}
+.saqorie.par {
+	font-size: 35px;
+}
+
+.saqorie-link {
+	font-family: "Saqorie";
+}
+/*******Saqorie*******/
 
 /*******Sketch*******/
 @font-face {
