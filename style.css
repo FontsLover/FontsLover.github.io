@@ -317,7 +317,7 @@ div.mx-auto {
 /*******Comix*******/
 @font-face {
 	font-family: "Comix";
-	src: url("fonts/Comix/comix.otf") format("opentype");
+	src: url("fonts/Comix/Comix.otf") format("opentype");
 }
 
 .comix {
